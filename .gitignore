@@ -1,0 +1,8 @@
+# >>> day-io-core managed (gitignore policy) >>>
+# Hidden directories at any depth inside .claude/
+.claude/.*/
+.claude/**/.*/
+# Machine-local files (.local.) at any depth inside .claude/
+.claude/*.local.*
+.claude/**/*.local.*
+# <<< day-io-core managed (gitignore policy) <<<
