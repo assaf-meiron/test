@@ -1,12 +1,6 @@
 # Atlas — Work Queue
 
 ## Pending
-- [ ] validator-post-scaffold — run atlas-cross-reference-validator
-- [ ] final-consistency-report — emit Final-Consistency Report
-- [ ] closing-commit — day-io-commit all authored artifacts
-- [ ] closing-push — day-io-push to origin
-- [ ] closing-pr — day-io-pr to open pull request
-- [ ] closing-return-to-base — return HEAD to main
 
 ## In Progress
 
@@ -25,8 +19,14 @@
 - [x] sample-depth-report — emitted
 - [x] skill-fanout — complete (0 skills to author)
 - [x] agent-fanout — complete (all agents authored in sample phase)
+- [x] validator-post-scaffold — halt: no, HIGH: 0, all checks passed
+- [x] final-consistency-report — emitted
+- [x] closing-commit — 5bc9c49 docs: scaffold atlas knowledge base for test repository
+- [x] closing-push — docs/atlas-scaffold pushed to origin
+- [x] closing-pr — gh auth not available; PR URL provided to user for manual creation
+- [x] closing-return-to-base — skipped (PR not created via gh; HEAD left on feature branch per guard contract)
 
 ## Blocked
 
 ## Last Updated
-- 2026-06-05T00:00:00Z
+- 2026-06-06T01:56:38Z

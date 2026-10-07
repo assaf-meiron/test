@@ -2,7 +2,7 @@
 
 ## Workflow
 - workflow: scaffold
-- phase: closing-commit
+- phase: complete
 - started: 2026-06-04T00:00:00Z
 - last-updated: 2026-06-04T00:00:00Z
 
@@ -163,6 +163,7 @@ summary: All post-scaffold structural checks passed — every cross-reference re
 
 ## Blockers
 - queue_substrate_drift @ 2026-06-05T08:07:47Z — scout appeared in both Pending and In Progress; resolved by rewriting queue.md (scout moved to Completed)
+- gh-auth-missing @ 2026-06-05T00:00:00Z — `gh pr create` failed: gh CLI not authenticated. PR must be opened manually. Branch docs/atlas-scaffold is published at https://github.com/assaf-meiron/test/pull/new/docs/atlas-scaffold — HEAD left on feature branch per guard contract.
 
 ## Last Updated
-- 2026-06-05T00:00:00Z
+- 2026-06-06T01:56:38Z
